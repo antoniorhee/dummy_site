@@ -1,0 +1,73 @@
+body {
+  font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+#masthead {
+  position: fixed;
+  width: 100%;
+  margin-top: 20px;
+}
+.navigation-links {
+  padding-right: 30px;
+}
+.navigation-links ul:first-child li {
+  float: left;
+  font-size: 25px;
+  border: none;
+  padding-top: 12px;
+}
+.navigation-links ul:first-child li:hover {
+  border: none;
+}
+.navigation-links ul:nth-child(2) {
+  display: inline-block;
+  float: right;
+}
+.navigation-links ul li {
+  float: left;
+  font-size: 13px;
+  list-style: none;
+  padding: 5px 14px 5px 14px;
+  margin: 0 3px 0 3px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+}
+.navigation-links ul li:hover {
+  padding: 5px 14px 5px 14px;
+  border: 1px solid white;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+}
+.navigation-links ul li a {
+  color: white;
+  text-decoration: none;
+}
+.welcome-container {
+  background-image: url(https://appetitedemo.files.wordpress.com/2015/07/smachno_18.jpg);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.welcome-content-container {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+}
+.welcome-header {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+.more-info {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.more-info a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  border: 2px solid white;
+}
