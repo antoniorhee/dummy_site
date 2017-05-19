@@ -5,7 +5,7 @@ body {
 #masthead {
   position: fixed;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 6px;
 }
 .navigation-links {
   padding-right: 30px;
@@ -13,17 +13,13 @@ body {
 .navigation-links ul:first-child li {
   float: left;
   font-size: 25px;
-  border: none;
   padding-top: 12px;
-}
-.navigation-links ul:first-child li:hover {
-  border: none;
 }
 .navigation-links ul:nth-child(2) {
   display: inline-block;
   float: right;
 }
-.navigation-links ul li {
+.navigation-links ul:nth-child(2) li {
   float: left;
   font-size: 13px;
   list-style: none;
@@ -31,20 +27,20 @@ body {
   margin: 0 3px 0 3px;
   border: 1px solid transparent;
   border-radius: 20px;
-  transition: all 0.2s ease-in-out;
+  transition: 0.2s ease-out;
 }
-.navigation-links ul li:hover {
+.navigation-links ul:nth-child(2) li:hover {
   padding: 5px 14px 5px 14px;
   border: 1px solid white;
   border-radius: 20px;
-  transition: all 0.2s ease-in-out;
+  transition: 0.2s ease-in;
 }
 .navigation-links ul li a {
   color: white;
   text-decoration: none;
 }
 .welcome-container {
-  background-image: url(https://appetitedemo.files.wordpress.com/2015/07/smachno_18.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://appetitedemo.files.wordpress.com/2015/07/smachno_18.jpg);
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -66,8 +62,9 @@ body {
 }
 .more-info a {
   font-weight: bold;
+  font-size: 13px;
   color: white;
   text-decoration: none;
-  padding: 5px;
+  padding: 10px;
   border: 2px solid white;
 }
