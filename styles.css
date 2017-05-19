@@ -2,6 +2,9 @@ body {
   font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+/*-------------------------------------
+NAVBAR / WELCOME WIDGET
+-------------------------------------*/
 #masthead {
   position: fixed;
   width: 100%;
@@ -14,6 +17,8 @@ body {
   float: left;
   font-size: 25px;
   padding-top: 12px;
+  list-style: none;
+  text-transform: uppercase;
 }
 .navigation-links ul:nth-child(2) {
   display: inline-block;
@@ -28,6 +33,7 @@ body {
   border: 1px solid transparent;
   border-radius: 20px;
   transition: 0.2s ease-out;
+  text-transform: uppercase;
 }
 .navigation-links ul:nth-child(2) li:hover {
   padding: 5px 14px 5px 14px;
@@ -40,11 +46,15 @@ body {
   text-decoration: none;
 }
 .welcome-container {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://appetitedemo.files.wordpress.com/2015/07/smachno_18.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://appetitedemo.files.wordpress.com/2015/07/smachno_18.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.welcome-content-container {
+.welcome-content {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
@@ -55,16 +65,94 @@ body {
   font-size: 25px;
   color: white;
   font-weight: bold;
+  text-transform: uppercase;
 }
-.more-info {
+.welcome-more-info {
   padding-top: 20px;
   padding-bottom: 40px;
 }
-.more-info a {
+.welcome-more-info a {
   font-weight: bold;
   font-size: 13px;
   color: white;
   text-decoration: none;
   padding: 10px;
   border: 2px solid white;
+  text-transform: uppercase;
+}
+
+
+
+
+
+#section-one {
+  line-height: 26px;
+  padding: 80px 0 40px 0;
+  height: 400px;
+}
+#section-two {
+  background-color: rgb(244, 242, 230);
+  line-height: 26px;
+  padding: 80px 0 40px 0;
+  height: 400px;
+}
+.container {
+  max-width: 1200px;
+  max-height: 400px;
+  margin: auto;
+}
+#article-one .image-container {
+  width: 570px;
+  height: 370px;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#article-two .image-container {
+  width: 570px;
+  height: 370px;
+  float: right;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+}
+.content-container {
+  width: 570px;
+  height: 370px;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.article-title {
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+.article-subtitle {
+  font-style: italic;
+  font-size: 16px;
+  color: rgba(150, 150, 150, .9);
+}
+.separator {
+  width: 115px;
+  height: 20px;
+  border-bottom: 1px solid black;
+}
+.article-entry {
+  font-size: 16px;
+}
+.more-info {
+  padding-top: 8px;
+}
+.more-info a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+  padding: 9px 11px 9px 11px;
+  border: 1.7px solid black;
 }
