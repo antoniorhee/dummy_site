@@ -80,11 +80,9 @@ NAVBAR / WELCOME WIDGET
   border: 2px solid white;
   text-transform: uppercase;
 }
-
-
-
-
-
+/*------------------------------
+SECTIONS 1, 2, 3, 4, 5
+------------------------------*/
 #section-one {
   line-height: 26px;
   padding: 80px 0 40px 0;
@@ -96,10 +94,10 @@ NAVBAR / WELCOME WIDGET
   padding: 80px 0 40px 0;
   height: 400px;
 }
-.container {
-  max-width: 1200px;
-  max-height: 400px;
-  margin: auto;
+#section-three {
+  line-height: 26px;
+  padding: 80px 0 40px 0;
+  height: 400px;
 }
 #article-one .image-container {
   width: 570px;
@@ -115,6 +113,11 @@ NAVBAR / WELCOME WIDGET
   padding-left: 15px;
   padding-right: 15px;
 }
+.container {
+  max-width: 1200px;
+  max-height: 400px;
+  margin: auto;
+}
 .image-container img {
   width: 100%;
   height: 100%;
@@ -127,19 +130,36 @@ NAVBAR / WELCOME WIDGET
   padding-right: 15px;
 }
 .article-title {
-  text-transform: uppercase;
   margin-top: 5px;
   margin-bottom: 8px;
+}
+.article-title  a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  /*font-size: 19px;*/
+  transition: 0.2s ease-out;
+}
+.article-title a:hover {
+  color: rgba(199, 168, 78, 1);
+  transition: 0.2s ease-in;
 }
 .article-subtitle {
   font-style: italic;
   font-size: 16px;
-  color: rgba(150, 150, 150, .9);
+  color: rgba(150, 150, 150, 0.9);
 }
 .separator {
   width: 115px;
   height: 20px;
   border-bottom: 1px solid black;
+}
+.separator-centered {
+  width: 115px;
+  height: 20px;
+  border-bottom: 1px solid black;
+  margin: 0 auto;
 }
 .article-entry {
   font-size: 16px;
@@ -155,4 +175,39 @@ NAVBAR / WELCOME WIDGET
   color: black;
   padding: 9px 11px 9px 11px;
   border: 1.7px solid black;
+  transition: 0.2s ease-out;
+}
+.more-info a:hover {
+  color: rgba(199, 168, 78, 1);
+  border: 1.7px solid rgba(199, 168, 78, 1);
+  transition: 0.2s ease-in;
+}
+.column {
+  width: 398px;
+  margin: auto;
+  float: left;
+}
+.column article {
+  text-align: center;
+  width: 320px;
+  margin: 30px auto;
+}
+.side-separator {
+  border-left: 1px solid rgba(150, 150, 150, 0.2);
+  border-right: 1px solid rgba(150, 150, 150, 0.2);
+}
+.column-title {
+  font-size: 19px;
+}
+.section-title {
+  text-align: center;
+}
+.section-title a {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+  pointer-events: none;
+  cursor: default;
+  text-transform: uppercase;
+  font-weight: 900;
 }
