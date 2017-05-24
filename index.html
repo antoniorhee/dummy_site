@@ -1,244 +1,553 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Dummy Site</title>
+  <title>Dummy Site</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
   <link rel="stylesheet" href="styles.css">
-	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
+  <meta content="initial-scale=1.0, width=device-width" name="viewport" />
 </head>
+
 <body>
-<div class="container-fluid" id="wrapper">
-	<header id="masthead">
-		<nav class="navigation-links">
-			<ul class="site-name">
-        <li>
-          <a href="#">appetite</a>
-        </li>
-      </ul>
-      <ul class="side-links">
-        <li>
-          <a href="#">home</a>
-        </li>
-        <li>
-          <a href="#">menu</a>
-        </li>
-        <li>
-          <a href="#">blog</a>
-        </li>
-        <li>
-          <a href="#">features</a>
-        </li>
-        <li>
-          <a href="#">support</a>
-        </li>
-        <li>
-          <a href="#">testimonials</a>
-        </li>
-			</ul>
-      <!-- .navigation-links -->
-		</nav>
-	</header>
-	<div class="welcome-container">
-    <div class="welcome-content">
+  <nav class="navbar-custom navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+					<!-- <span>MENU</span> -->
+      </button>
+        <a class="navbar-brand" href="#">appetite</a>
+      </div>
+
+      <div class="nav-links collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">home</a></li>
+          <li><a href="#">menu</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">features</a></li>
+          <li><a href="#">support</a></li>
+          <li><a href="#">testimonials</a></li>
+        </ul>
+      </div>
+      <!-- .navigation-links .collapse .navbar-collapse -->
+    </div>
+    <!-- .container-fluid -->
+  </nav>
+
+
+  <div class="welcome-container">
+    <div class="welcome-content container">
       <div class="welcome-header">
         <h2>
-          welcome to our restaurant
-        </h2>
+        welcome to our restaurant
+      	</h2>
       </div>
-      <div class="welcome-description">
-        <p>
-          Tumblr next level actually helvetica. Health goth tattooed fam mlkshk, blue bottle bicycle rights paleo. Mumblecore crucifix sartorial tote bag lyft, la croix skateboard messenger bag tacos fanny pack organic. Crucifix offal meh tbh. IPhone bitters kinfolk waistcoat, seitan master cleanse farm-to-table. Authentic kombucha listicle franzen street art, intelligentsia af celiac pop-up knausgaard lomo seitan readymade. Cold-pressed ennui squid kitsch mumblecore letterpress.
-        </p>
-        <div class="welcome-more-info">
-          <a href="#">read our story</a>
-        </div>
-        <!-- .more-info -->
-      </div>
-      <!-- .welcome-description -->
+			<div class="row">
+				<div class="welcome-description col-md-6 col-md-offset-3">
+					<p>
+						Tumblr next level actually helvetica. Health goth tattooed fam mlkshk, blue bottle bicycle rights paleo. Mumblecore crucifix sartorial tote bag lyft, la croix skateboard messenger bag tacos fanny pack organic. Crucifix offal meh tbh. IPhone bitters kinfolk
+						waistcoat, seitan master cleanse farm-to-table.
+					</p>
+					<div class="welcome-more-info">
+						<a href="#">read our story</a>
+					</div>
+					<!-- .more-info -->
+				</div>
+				<!-- .welcome-description col-md-6 col-md-offset-3 -->
+			</div>
     </div>
     <!-- .welcome-content -->
-	</div>
-	<!-- .welcome-container -->
-	<div class="widgets">
-		<section id="section-one">
+  </div>
+  <!-- .welcome-container -->
+
+
+  <div class="widgets">
+    <section id="section-one" class="section-white">
       <div class="container">
-        <article id="article-one">
-          <div class="image-container">
-            <img src="https://appetitedemo.files.wordpress.com/2015/07/smachno_19.jpg" alt="article-one-image">
-          </div>
-          <!-- .image-container -->
-          <div class="content-container">
-            <header class="article-content-header">
-              <h2 class="article-title">
-                <a href="#">
-                  we make food that offers variety of flavors and tastes
-                </a>
-              </h2>
-              <div class="article-subtitle">This is a featured image caption, and you can add any text you want.</div>
-            </header>
-            <div class="separator"></div>
-            <div class="article-entry">
-              <p>
-                Poke lomo keytar, pour-over disrupt pabst twee live-edge tattooed etsy subway tile mlkshk tote bag prism. Hashtag snackwave plaid, roof party irony tote bag sustainable typewriter mlkshk synth retro vegan selfies salvia. Subway tile yr quinoa master cleanse twee. Man bun bespoke squid pinterest mumblecore, waistcoat VHS keytar chia. Tumeric next level woke everyday carry yuccie live-edge, poutine thundercats lyft four loko deep v direct trade.
-              </p>
-              <div class="more-info">
-                <a href="#">read more</a>
-              </div>
-              <!-- .more-info -->
-            </div>
-            <!-- .article-entry -->
-          </div>
-          <!-- .content-container -->
-        </article>
-        <!-- #article-one -->
+				<div class="row">
+					<div class="col-md-12">
+						<article id="article-one">
+							<div class="image-container col-md-6">
+								<img src="https://appetitedemo.files.wordpress.com/2015/07/smachno_19.jpg" alt="article-one-image">
+							</div>
+							<!-- .image-container col-md-6 -->
+							<div class="content-container col-md-6">
+								<header class="article-content-header">
+									<h2 class="article-title">
+										<a href="#">
+											we make food that offers variety of flavors and tastes
+										</a>
+									</h2>
+									<div class="article-subtitle">This is a featured image caption, and you can add any text you want.</div>
+								</header>
+								<div class="separator"></div>
+								<div class="article-entry">
+									<p>
+										Poke lomo keytar, pour-over disrupt pabst twee live-edge tattooed etsy subway tile mlkshk tote bag prism. Hashtag snackwave plaid, roof party irony tote bag sustainable typewriter mlkshk synth retro vegan selfies salvia. Subway tile yr quinoa master cleanse
+										twee. Man bun bespoke squid pinterest mumblecore, waistcoat VHS keytar chia.
+									</p>
+									<div class="more-info">
+										<a href="#">read more</a>
+									</div>
+									<!-- .more-info -->
+								</div>
+								<!-- .article-entry -->
+							</div>
+							<!-- .content-container col-md-6 -->
+						</article>
+						<!-- #article-one -->
+					</div>
+					<!-- col-md-12 -->
+				</div>
+				<!-- row -->
       </div>
       <!-- .container -->
-		</section>
-    <!-- #section-one -->
-		<section id="section-two">
-      <div class="container">
-        <article id="article-two">
-          <div class="image-container">
-            <img src="https://appetitedemo.files.wordpress.com/2015/07/smachno_20.jpg?w=1024&h=683" alt="article-two-image">
-          </div>
-          <!-- .image-container -->
-          <div class="content-container">
-            <header class="article-content-header">
-              <h2 class="article-title">
-                <a href="#">
-                  best happy hours in town
-                </a>
-              </h2>
-              <div class="article-subtitle">This is a featured image caption, and you can add any text you want.</div>
-            </header>
-            <div class="separator"></div>
-            <div class="article-entry">
-              <p>
-                Poke lomo keytar, pour-over disrupt pabst twee live-edge tattooed etsy subway tile mlkshk tote bag prism. Hashtag snackwave plaid, roof party irony tote bag sustainable typewriter mlkshk synth retro vegan selfies salvia. Subway tile yr quinoa master cleanse twee. Man bun bespoke squid pinterest mumblecore, waistcoat VHS keytar chia. Tumeric next level woke everyday carry yuccie live-edge, poutine thundercats lyft four loko deep v direct trade.
-              </p>
-              <div class="more-info">
-                <a href="#">see our prices</a>
-              </div>
-              <!-- .more-info -->
-            </div>
-            <!-- .article-entry -->
-          </div>
-          <!-- .content-container -->
-        </article>
-        <!-- #article-two -->
-      </div>
-      <!-- .container -->
-		</section>
-    <!-- #section-two -->
-    <section id="section-three">
-      <div class="container">
-        <h2 class="section-title">
-          <a href="#">the staff</a>
-        </h2>
-        <div class="three-columns-container">
-          <div class="column">
-            <article>
-              <header>
-                <div class="image-container">
-                  <a href="#">
-                    <img src="https://appetitedemo.files.wordpress.com/2015/07/smachno_33.jpg?w=1024&h=614&crop=1" alt="profile-picture-one">
-                  </a>
-                </div>
-                <h2 class="article-title column-title">
-                  <a href="#">Jonatan Doe</a>
-                </h2>
-                <div class="article-subtitle">Executive Chef</div>
-              </header>
-              <div class="separator-centered"></div>
-              <div class="article-entry">
-                <p>
-                  Poke lomo keytar, pour-over disrupt pabst twee live-edge tattooed etsy subway tile mlkshk tote bag prism. Hashtag snackwave plaid, roof party irony tote bag sustainable typewriter mlkshk synth retro vegan selfies salvia. Subway tile yr quinoa master cleanse twee.
-                </p>
-                <div class="more-info">
-                  <a href="#">read more</a>
-                </div>
-              </div>
-            </article>
-          </div>
-          <!-- .column -->
-          <div class="column side-separator">
-            <article>
-              <header>
-                <div class="image-container">
-                  <a href="#">
-                    <img src="https://appetitedemo.files.wordpress.com/2015/07/smachno_34.jpg?w=1024&h=614&crop=1" alt="profile-picture-two">
-                  </a>
-                </div>
-                <h2 class="article-title column-title">
-                  <a href="#">Christina Smith</a>
-                </h2>
-                <div class="article-subtitle">Corporate Pastry Chef</div>
-              </header>
-              <div class="separator-centered"></div>
-              <div class="article-entry">
-                <p>
-                  Poke lomo keytar, pour-over disrupt pabst twee live-edge tattooed etsy subway tile mlkshk tote bag prism. Hashtag snackwave plaid, roof party irony tote bag sustainable typewriter mlkshk synth retro vegan selfies salvia. Subway tile yr quinoa master cleanse twee.
-                </p>
-                <div class="more-info">
-                  <a href="#">read more</a>
-                </div>
-              </div>
-            </article>
-          </div>
-          <!-- .column -->
-          <div class="side-separator"></div>
-          <div class="column">
-            <article>
-              <header>
-                <div class="image-container">
-                  <a href="#">
-                    <img src="https://appetitedemo.files.wordpress.com/2015/07/smachno_35.jpg?w=1024&h=614&crop=1" alt="proflie-picture-three">
-                  </a>
-                </div>
-                <h2 class="article-title column-title">
-                  <a href="#">Jimmy Cole</a>
-                </h2>
-                <div class="article-subtitle">Chef De Cuisine</div>
-              </header>
-              <div class="separator-centered"></div>
-              <div class="article-entry">
-                <p>
-                  Poke lomo keytar, pour-over disrupt pabst twee live-edge tattooed etsy subway tile mlkshk tote bag prism. Hashtag snackwave plaid, roof party irony tote bag sustainable typewriter mlkshk synth retro vegan selfies salvia. Subway tile yr quinoa master cleanse twee.
-                </p>
-                <div class="more-info">
-                  <a href="#">read more</a>
-                </div>
-              </div>
-            </article>
-          </div>
-          <!-- .column -->
-        </div>
-      </div>
     </section>
+    <!-- .section-white -->
 
+    <section id="section-two" class="section-tan">
+      <div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<article id="article-two">
+							<div class="image-container col-md-6">
+								<img src="https://appetitedemo.files.wordpress.com/2015/07/smachno_19.jpg">
+							</div>
+							<!-- .image-container col-md-6 -->
+							<div class="content-container col-md-6">
+								<header class="article-content-header">
+									<h2 class="article-title">
+										<a href="#">
+											we make food that offers variety of flavors and tastes
+										</a>
+									</h2>
+									<div class="article-subtitle">This is a featured image caption, and you can add any text you want.</div>
+								</header>
+								<div class="separator"></div>
+								<div class="article-entry">
+									<p>
+										Poke lomo keytar, pour-over disrupt pabst twee live-edge tattooed etsy subway tile mlkshk tote bag prism. Hashtag snackwave plaid, roof party irony tote bag sustainable typewriter mlkshk synth retro vegan selfies salvia. Subway tile yr quinoa master cleanse
+										twee. Man bun bespoke squid pinterest mumblecore, waistcoat VHS keytar chia.
+									</p>
+									<div class="more-info">
+										<a href="#">read more</a>
+									</div>
+									<!-- .more-info -->
+								</div>
+								<!-- .article-entry -->
+							</div>
+							<!-- .content-container col-md-6 -->
+						</article>
+						<!-- #article-two -->
+					</div>
+					<!-- col-md-12 -->
+				</div>
+				<!-- row -->
+      </div>
+      <!-- .container -->
+    </section>
+    <!-- .section-tan -->
 
+		<section id="section-three" class="section-white">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4">
+						<h2 class="section-title">The Staff</h2>
+					</div>
+					<!-- .col-md-4 col-md-offset-4 -->
+				</div>
+				<!-- .row -->
+			</div>
+			<!-- .container -->
 
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<article class="profile">
+							<div class="col-md-4">
+								<div class="image-container">
+									<img src="https://appetitedemo.files.wordpress.com/2015/07/smachno_19.jpg">
+								</div>
+								<!-- .image-container -->
+								<div class="content-container">
+									<header class="article-content-header">
+										<h2 class="article-title profile-name">
+											<a href="#">
+												profile name
+											</a>
+										</h2>
+										<div class="article-subtitle">profile caption</div>
+									</header>
+									<div class="separator centered"></div>
+									<div class="article-entry">
+										<p>
+											Poke lomo keytar, pour-over disrupt pabst twee live-edge tattooed etsy subway tile mlkshk tote bag prism. Hashtag snackwave plaid, roof party irony tote bag sustainable typewriter mlkshk synth retro vegan selfies salvia.
+										</p>
+										<div class="more-info">
+											<a href="#">read more</a>
+										</div>
+										<!-- .more-info -->
+									</div>
+									<!-- .article-entry -->
+								</div>
+								<!-- .content-container -->
+							</div>
+							<!-- .col-md-4 -->
+						</article>
+						<!-- .profile -->
 
+						<article class="profile">
+							<div class="col-md-4">
+								<div class="image-container">
+									<img src="https://appetitedemo.files.wordpress.com/2015/07/smachno_19.jpg">
+								</div>
+								<!-- .image-container -->
+								<div class="content-container">
+									<header class="article-content-header">
+										<h2 class="article-title profile-name">
+											<a href="#">
+												profile name
+											</a>
+										</h2>
+										<div class="article-subtitle">profile caption</div>
+									</header>
+									<div class="separator centered"></div>
+									<div class="article-entry">
+										<p>
+											Poke lomo keytar, pour-over disrupt pabst twee live-edge tattooed etsy subway tile mlkshk tote bag prism. Hashtag snackwave plaid, roof party irony tote bag sustainable typewriter mlkshk synth retro vegan selfies salvia.
+										</p>
+										<div class="more-info">
+											<a href="#">read more</a>
+										</div>
+										<!-- .more-info -->
+									</div>
+									<!-- .article-entry -->
+								</div>
+								<!-- .content-container -->
+							</div>
+							<!-- .col-md-4 -->
+						</article>
+						<!-- .profile -->
 
-		<!-- <section>
-			section 2
+						<article class="profile">
+							<div class="col-md-4">
+								<div class="image-container">
+									<img src="https://appetitedemo.files.wordpress.com/2015/07/smachno_19.jpg">
+								</div>
+								<!-- .image-container -->
+								<div class="content-container">
+									<header class="article-content-header">
+										<h2 class="article-title profile-name">
+											<a href="#">
+												profile name
+											</a>
+										</h2>
+										<div class="article-subtitle">profile caption</div>
+									</header>
+									<div class="separator centered"></div>
+									<div class="article-entry">
+										<p>
+											Poke lomo keytar, pour-over disrupt pabst twee live-edge tattooed etsy subway tile mlkshk tote bag prism. Hashtag snackwave plaid, roof party irony tote bag sustainable typewriter mlkshk synth retro vegan selfies salvia.
+										</p>
+										<div class="more-info">
+											<a href="#">read more</a>
+										</div>
+										<!-- .more-info -->
+									</div>
+									<!-- .article-entry -->
+								</div>
+								<!-- .content-container -->
+							</div>
+							<!-- .col-md-4 -->
+						</article>
+						<!-- .profile -->
+					</div>
+					<!-- .col-md-12 -->
+				</div>
+				<!-- .row -->
+			</div>
+			<!-- .container -->
 		</section>
-		<section>
-			section 3
+		<!-- .section-white -->
+
+		<section id="section-four" class="section-tan">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4">
+						<h2 class="section-title">Recent News</h2>
+					</div>
+					<!-- .col-md-4 .col-md-offset-4 -->
+				</div>
+				<!-- .row -->
+			</div>
+			<!-- .container -->
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<article id="news-one" class="news">
+							<div class="col-md-4">
+								<div class="image-container">
+									<img src="https://appetitedemo.files.wordpress.com/2015/07/smachno_19.jpg">
+								</div>
+								<!-- .image-container -->
+								<div class="content-container">
+									<header class="article-content-header">
+										<h2 class="article-title news-title">
+											<a href="#">
+												news title
+											</a>
+										</h2>
+										<div class="article-subtitle">news caption</div>
+									</header>
+									<div class="separator centered"></div>
+									<div class="article-entry">
+										<p>
+											Poke lomo keytar, pour-over disrupt pabst twee live-edge tattooed etsy subway tile mlkshk tote bag prism.
+										</p>
+										<div class="more-info">
+											<a href="#">read more</a>
+										</div>
+										<!-- .more-info -->
+									</div>
+									<!-- .article-entry -->
+								</div>
+								<!-- .content-container -->
+							</div>
+							<!-- .col-md-4 -->
+						</article>
+						<!-- .news -->
+
+						<article id="news-two" class="news">
+							<div class="col-md-4">
+								<div class="image-container">
+									<img src="https://appetitedemo.files.wordpress.com/2015/07/smachno_19.jpg">
+								</div>
+								<!-- .image-container -->
+								<div class="content-container">
+									<header class="article-content-header">
+										<h2 class="article-title news-title">
+											<a href="#">
+												news title
+											</a>
+										</h2>
+										<div class="article-subtitle">news caption</div>
+									</header>
+									<div class="separator centered"></div>
+									<div class="article-entry">
+										<p>
+											Poke lomo keytar, pour-over disrupt pabst twee live-edge tattooed etsy subway tile mlkshk tote bag prism.
+										</p>
+										<div class="more-info">
+											<a href="#">read more</a>
+										</div>
+										<!-- .more-info -->
+									</div>
+									<!-- .article-entry -->
+								</div>
+								<!-- .content-container -->
+							</div>
+							<!-- .col-md-4 -->
+						</article>
+						<!-- .news -->
+
+						<article id="news-three" class="news">
+							<div class="col-md-4">
+								<div class="image-container">
+									<img src="https://appetitedemo.files.wordpress.com/2015/07/smachno_19.jpg">
+								</div>
+								<!-- .image-container -->
+								<div class="content-container">
+									<header class="article-content-header">
+										<h2 class="article-title news-title">
+											<a href="#">
+												news title
+											</a>
+										</h2>
+										<div class="article-subtitle">news caption</div>
+									</header>
+									<div class="separator centered"></div>
+									<div class="article-entry">
+										<p>
+											Poke lomo keytar, pour-over disrupt pabst twee live-edge tattooed etsy subway tile mlkshk tote bag prism.
+										</p>
+										<div class="more-info">
+											<a href="#">read more</a>
+										</div>
+										<!-- .more-info -->
+									</div>
+									<!-- .article-entry -->
+								</div>
+								<!-- .content-container -->
+							</div>
+							<!-- .col-md-4 -->
+						</article>
+						<!-- .news -->
+
+						<article id="news-four" class="news">
+							<div class="col-md-4">
+								<div class="image-container">
+									<img src="https://appetitedemo.files.wordpress.com/2015/07/smachno_19.jpg">
+								</div>
+								<!-- .image-container -->
+								<div class="content-container">
+									<header class="article-content-header">
+										<h2 class="article-title news-title">
+											<a href="#">
+												news title
+											</a>
+										</h2>
+										<div class="article-subtitle">news caption</div>
+									</header>
+									<div class="separator centered"></div>
+									<div class="article-entry">
+										<p>
+											Poke lomo keytar, pour-over disrupt pabst twee live-edge tattooed etsy subway tile mlkshk tote bag prism.
+										</p>
+										<div class="more-info">
+											<a href="#">read more</a>
+										</div>
+										<!-- .more-info -->
+									</div>
+									<!-- .article-entry -->
+								</div>
+								<!-- .content-container -->
+							</div>
+							<!-- .col-md-4 -->
+						</article>
+						<!-- .news -->
+
+						<article id="news-five" class="news">
+							<div class="col-md-4">
+								<div class="image-container">
+									<img src="https://appetitedemo.files.wordpress.com/2015/07/smachno_19.jpg">
+								</div>
+								<!-- .image-container -->
+								<div class="content-container">
+									<header class="article-content-header">
+										<h2 class="article-title news-title">
+											<a href="#">
+												news title
+											</a>
+										</h2>
+										<div class="article-subtitle">news caption</div>
+									</header>
+									<div class="separator centered"></div>
+									<div class="article-entry">
+										<p>
+											Poke lomo keytar, pour-over disrupt pabst twee live-edge tattooed etsy subway tile mlkshk tote bag prism.
+										</p>
+										<div class="more-info">
+											<a href="#">read more</a>
+										</div>
+										<!-- .more-info -->
+									</div>
+									<!-- .article-entry -->
+								</div>
+								<!-- .content-container -->
+							</div>
+							<!-- .col-md-4 -->
+						</article>
+						<!-- .news -->
+
+						<article id="news-six" class="news">
+							<div class="col-md-4">
+								<div class="image-container">
+									<img src="https://appetitedemo.files.wordpress.com/2015/07/smachno_19.jpg">
+								</div>
+								<!-- .image-container -->
+								<div class="content-container">
+									<header class="article-content-header">
+										<h2 class="article-title news-title">
+											<a href="#">
+												news title
+											</a>
+										</h2>
+										<div class="article-subtitle">news caption</div>
+									</header>
+									<div class="separator centered"></div>
+									<div class="article-entry">
+										<p>
+											Poke lomo keytar, pour-over disrupt pabst twee live-edge tattooed etsy subway tile mlkshk tote bag prism.
+										</p>
+										<div class="more-info">
+											<a href="#">read more</a>
+										</div>
+										<!-- .more-info -->
+									</div>
+									<!-- .article-entry -->
+								</div>
+								<!-- .content-container -->
+							</div>
+							<!-- .col-md-4 -->
+						</article>
+						<!-- .news -->
+					</div>
+					<!-- .col-md-12 -->
+				</div>
+				<!-- .row -->
+			</div>
+			<!-- .container -->
 		</section>
-		<section>
-			section 4
+		<!-- .section-white -->
+
+		<section id="section-five" class="section-white">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4">
+						<h2 class="section-title">Testimonials</h2>
+					</div>
+					<!-- .col-md-4 .col-md-offset-4 -->
+					<div class="col-md-10 col-md-offset-1">
+						<p class="testimonial-entry">
+							Tumblr next level actually helvetica. Health goth tattooed fam mlkshk, blue bottle bicycle rights paleo. Mumblecore crucifix sartorial tote bag lyft, la croix skateboard messenger bag tacos fanny pack organic. Crucifix offal meh tbh. IPhone bitters kinfolk
+							waistcoat, seitan master cleanse farm-to-table.
+						</p>
+					</div>
+					<!-- .col-md-6 .col-md-offset-3 -->
+				</div>
+				<!-- .row -->
+			</div>
+			<!-- .container -->
+
+
+			<div class="col-md-6 col-md-offset-3 text-center">
+				<ul class="testimonial-list">
+					<li>
+						<a href="#">
+							<img class="testimonial-thumb" src="https://appetitedemo.files.wordpress.com/2015/07/smachno_19.jpg">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img class="testimonial-thumb" src="https://appetitedemo.files.wordpress.com/2015/07/smachno_19.jpg">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img class="testimonial-thumb" src="https://appetitedemo.files.wordpress.com/2015/07/smachno_19.jpg">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img class="testimonial-thumb" src="https://appetitedemo.files.wordpress.com/2015/07/smachno_19.jpg">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img class="testimonial-thumb" src="https://appetitedemo.files.wordpress.com/2015/07/smachno_19.jpg">
+						</a>
+					</li>
+				</ul>
+			</div>
 		</section>
-		<section>
-			section 5
-		</section>
-	</div>
-	<footer id="footer" role="contentinfo">
-		<p class="powered-by">
-			Footer
-		</p>
-	</footer>
-</div> -->
-<!-- inject:js -->
-<!-- endinject -->
+		<!-- #section-five .section-white -->
 </body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="./navbar.js" charset="utf-8"></script>
+
 </html>
